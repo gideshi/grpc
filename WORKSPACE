@@ -61,7 +61,7 @@ bind(
 http_archive(
     name = "boringssl",
     # on the master-with-bazel branch
-    url = "https://boringssl.googlesource.com/boringssl/+archive/886e7d75368e3f4fab3f4d0d3584e4abfc557755.tar.gz",
+    url = "https://github.com/derekzhuo/boringssl-with-bazel/+archive/886e7d75368e3f4fab3f4d0d3584e4abfc557755.tar.gz",
 )
 
 new_http_archive(
